@@ -1,9 +1,8 @@
-# CHORD PROGRESSIONS
-Uma ferramenta web desenvolvida em Javascript para a execução de progressões de acordes. Para testá-la, acesse esse [link](https://joaotozzi.github.io/chordprogressions/). 
+# CHORD PROGRESSIONS (weird version)
 
-Para a construção dessa ferramenta foram utilizadas as seguintes bibliotecas:<br/>
-&nbsp;&nbsp;&bull;&nbsp;&nbsp;[Howler.js](https://howlerjs.com/) - Para a reprodução de sons no navegador.<br/>
-&nbsp;&nbsp;&bull;&nbsp;&nbsp;[Ohm.js](https://ohmlang.github.io/) - Para criação da gramática, análise sintática e semântica (usada no reconhecimento das cifras dos acordes digitados).<br/>
+chordprogressions é uma ferramenta criada pelo user joaotozzi para execução de progressão de acordes. Estou tentando dar um jeito da melodia formada pelas tônicas ficar menos perceptível, para afetar menos a percepção da harmonia. Não faz muito sentido mesmo, são experimentos. A ideia é que toda nota seja tocada em várias oitavas diferentes, e que o volume diminua conforme aumenta a nota e a oitava, tornando mais grave os acordes formados por notas que, na mesma oitava, são mais agudas, até que se atinja um equilíbrio e a ideia de uma melodia desapareça. Ou não, nem tá dando certo. Confira o repositório original em https://github.com/Henrique-Gomes/chordprogressions.
+
+*Daqui pra baixo é parte do readme original.*
 
 # Acordes Aceitos
 O sistema reconhece uma grande variedade de acordes, em diferentes formas de cifragem (exemplos em C):
