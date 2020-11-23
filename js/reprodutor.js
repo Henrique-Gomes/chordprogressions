@@ -5,11 +5,12 @@ let howls = [];
 let contador = 0;
 
 //carregando os sons no sistema
-for (var z = 48; z <= 95; z++) {
-  sounds.push("sounds/piano" + z.toString() + ".mp3");
+for (var z = 21; z <= 108; z++) {
+  sounds.push("sounds/piano" + z.toString() + ".m4a");
   var howl = new Howl({
-    src: ["sounds/piano" + z.toString() + ".mp3"],
-    volume: 0.2
+    src: ["sounds/piano" + z.toString() + ".m4a"],
+    volume: z <= 32 ? 0.0166666667*(z - 20) : 0.00263157895*(109-z)
+	//0.0027972028 * (71.5 - Math.abs(z - 71.5))
   });
   howls.push(howl);
 }
@@ -216,7 +217,10 @@ function tocarTodasAsNotas(acorde, contador) {
 function tocarNota(nota, atraso) {
   timers.push(
     setTimeout(function() {
-      howls[nota - 48].play();
+	  var oitava = nota;
+	  do {howls[oitava - 21].play(); oitava -= 12;} while(oitava >= 21);
+	  oitava = nota + 12;
+	  do {howls[oitava - 21].play(); oitava += 12;} while(oitava <= 108);
     }, atraso)
   );
 }
