@@ -1,6 +1,8 @@
 # CHORD PROGRESSIONS (weird version)
 
-chordprogressions é uma ferramenta criada pelo user joaotozzi para execução de progressão de acordes. Estou tentando dar um jeito da melodia formada pelas tônicas ficar menos perceptível, para afetar menos a percepção da harmonia. Não faz muito sentido mesmo, são experimentos. A ideia é que toda nota seja tocada em várias oitavas diferentes, e que o volume diminua conforme aumenta a nota e a oitava, tornando mais grave os acordes formados por notas que, na mesma oitava, são mais agudas, até que se atinja um equilíbrio e a ideia de uma melodia desapareça. Ou não, nem tá dando certo. Confira o repositório original em https://github.com/Henrique-Gomes/chordprogressions.
+chordprogressions é uma ferramenta criada pelo user joaotozzi para execução de progressão de acordes. Estou tentando dar um jeito da melodia formada pelas tônicas ficar menos perceptível, para afetar menos a percepção da harmonia. Não faz muito sentido mesmo, são experimentos. A ideia é que toda nota seja tocada em várias oitavas diferentes, e que o volume diminua conforme aumenta a nota e a oitava, tornando mais grave os acordes formados por notas que, na mesma oitava, são mais agudas, até que se atinja um equilíbrio e a ideia de uma melodia desapareça. Ou não, nem tá dando certo. Confira o repositório original em https://github.com/joaotozzi/chordprogressions.
+
+Utilize esta versão disfuncional acessando https://henrique-gomes.github.io/chordprogressions/.
 
 *Daqui pra baixo é parte do readme original.*
 
